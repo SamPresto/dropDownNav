@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: black;
+}
+
+.navContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navContainer .logo img {
+    width: 50px;
+    margin: 1em 0 1em 1em;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+    margin-right: 2em;
+}
+
+.icon {
+    display: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+    .links {
+        flex-direction: column;
+        justify-content: 0;
+        width: 100vw;
+        margin-right: 0;
+        display: none;
+    }
+    .icon {
+        display: block;
+        margin-right: 1em;
+    }
+}

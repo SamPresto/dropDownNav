@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;700&amp;display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <nav>
+        <!-- use javascript to add -active to the class name(.active)<----for js code -->
+        <!-- transition the dropdown button into an x or rotate it 90deg -->
+        <div class="navContainer">
+
+            <div class="logo">
+                <a href=""><img src="images/logo.png" alt="logo"></a>
+            </div>
+        
+
+
+            <!-- Will be shown normally until screen width is around mobile size then turn nav bar into hamburger menu dropdown -->
+            <div class="links">
+                <a href="#"><p>Link 1</p></a>
+                <a href="#"><p>Link 2</p></a>
+                <a href="#"><p>Link 3</p></a>
+            </div>
+            <!-- hamburger menu -->
+            <a href="javascript:void(0);" class="icon" onclick="">
+                <i class="fa fa-bars fa-2x"></i>
+            </a>
+        </div>
+    </nav>
+</body>
+</html>
